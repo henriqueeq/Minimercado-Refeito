@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimercado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        section {
+            margin-bottom: 30px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .produto {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .produto img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        .preco {
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .produto {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .produto img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minimercado Saúde & Qualidade</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            
+            <h3>Hortifruti</h3>
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg" alt="Banana">
+                <div>
+                    <h4>Banana</h4>
+                    <p class="preco">R$ 5,00/kg</p>
+                    <p>Fruta rica em potássio, ideal para energia e digestão saudável.</p>
+                </div>
+            </div>
+            
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/1510392/pexels-photo-1510392.jpeg" alt="Maçã">
+                <div>
+                    <h4>Maçã</h4>
+                    <p class="preco">R$ 7,00/kg</p>
+                    <p>Fonte de fibras e antioxidantes, perfeita para lanches saudáveis.</p>
+                </div>
+            </div>
+            
+            <h3>Laticínios</h3>
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/5692260/pexels-photo-5692260.jpeg" alt="Leite">
+                <div>
+                    <h4>Leite</h4>
+                    <p class="preco">R$ 4,50</p>
+                    <p>Fonte de cálcio essencial para ossos fortes e saudáveis.</p>
+                </div>
+            </div>
+            
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/7214785/pexels-photo-7214785.jpeg" alt="Queijo">
+                <div>
+                    <h4>Queijo</h4>
+                    <p class="preco">R$ 15,00</p>
+                    <p>Queijo fresco e saboroso, ideal para sanduíches e receitas.</p>
+                </div>
+            </div>
+            
+            <h3>Padaria</h3>
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/31597687/pexels-photo-31597687/free-photo-of-pao-padeiro-padaria-comida.jpeg" alt="Pão Francês">
+                <div>
+                    <h4>Pão Francês</h4>
+                    <p class="preco">R$ 0,80/unidade</p>
+                    <p>Crocante por fora e macio por dentro, perfeito para o café da manhã.</p>
+                </div>
+            </div>
+            
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/19288295/pexels-photo-19288295/free-photo-of-bolo-doce-chocolate-confeitaria.jpeg" alt="Bolo de Chocolate">
+                <div>
+                    <h4>Bolo de Chocolate</h4>
+                    <p class="preco">R$ 25,00</p>
+                    <p>Delicioso bolo fofinho com sabor intenso de chocolate.</p>
+                </div>
+            </div>
+            
+            <h3>Produtos de Limpeza</h3>
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/4440564/pexels-photo-4440564.jpeg" alt="Detergente">
+                <div>
+                    <h4>Detergente</h4>
+                    <p class="preco">R$ 3,50</p>
+                    <p>Remove gorduras e sujeiras com eficiência, deixando sua louça impecável.</p>
+                </div>
+            </div>
+            
+            <div class="produto">
+                <img src="https://images.pexels.com/photos/10557902/pexels-photo-10557902.jpeg" alt="Desinfetante">
+                <div>
+                    <h4>Desinfetante</h4>
+                    <p class="preco">R$ 8,00</p>
+                    <p>Elimina 99,9% das bactérias, deixando um aroma agradável.</p>
+                </div>
+            </div>
+            
+            <div class="produto">
+                <img src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd" alt="Sabão em Pó">
+                <div>
+                    <h4>Sabão em Pó</h4>
+                    <p class="preco">R$ 12,00</p>
+                    <p>Poderoso contra manchas, proporcionando roupas limpas e perfumadas.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div>
+                <h3>Entrega em domicílio</h3>
+                <p class="preco">R$ 10,00</p>
+                <p>Receba seus produtos com conforto e praticidade na sua casa.</p>
+            </div>
+            <div>
+                <h3>Retirada no Estabelecimento</h3>
+                <p class="preco">Gratuito</p>
+                <p>Compre online e retire rapidamente em nossa loja sem filas.</p>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <p><strong>Email:</strong> contato@minimercado.com</p>
+            <p><strong>Telefone:</strong> (00) 1234-5678</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123 - Centro</p>
+            <p><strong>Horário:</strong> Segunda a Sábado, 7h às 20h</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Minimercado Saúde & Qualidade. Todos os direitos reservados.</p>
+        <p>Projeto acadêmico - Fase 1</p>
+    </footer>
+</body>
+</html>
