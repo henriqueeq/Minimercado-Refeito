@@ -7,7 +7,7 @@ Projeto da Fase 1 - Site de minimercado com:
 - Página de contato
 
 ## Como executar
-1. Clone o repositório
+1. Copie o repositório
 2. Abra o arquivo `index.html` no navegador
 
 **Acesso online**:  
