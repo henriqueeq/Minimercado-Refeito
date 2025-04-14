@@ -11,6 +11,6 @@ Projeto da Fase 1 - Site de minimercado com:
 2. Abra o arquivo `index.html` no navegador
 
 **Acesso online**:  
-[https://seu-usuario.github.io/minimercado/](https://seu-usuario.github.io/minimercado/)
+[https://henriqueeq.github.io/minimercado/](https://henriqueeq.github.io/minimercado/)
 
 Desenvolvido por Pedro Henrique Lemos Carvalho para Fundamentos de Sistemas Web.
